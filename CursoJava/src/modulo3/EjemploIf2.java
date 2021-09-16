@@ -1,6 +1,5 @@
 package modulo3;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class EjemploIf2 {
