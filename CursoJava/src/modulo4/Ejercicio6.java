@@ -16,7 +16,7 @@ public class Ejercicio6 {
 			
 			if(curso == 0) {
 				
-				System.out.println("jasdín de infantes");
+				System.out.println("jardín de infantes");
 				
 			}else if(curso >= 1 && curso <= 6) {
 				
