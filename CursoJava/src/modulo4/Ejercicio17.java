@@ -20,6 +20,8 @@ public class Ejercicio17 {
 		int d = 2;
 		int aN;
 		
+		int sumab = 0;
+		
 		for(int i = 0; i < 11; i++) {
 			
 			multiplo = i;
@@ -45,8 +47,12 @@ public class Ejercicio17 {
 			
 			n = i;
 			aN = a1 + d*(n - 1);
+			sumab += aN;
 			
 		}
+		
+		System.out.println("La suma de los numeros pares del " + numero + " es de " + sumab);
+		
 		*/
 		
 		sc.close();
