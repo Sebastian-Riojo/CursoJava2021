@@ -38,7 +38,7 @@ public class Alumno extends Persona{
 	
 	public String toString() {
 		
-		return super.toString() + " y numero de expediente: " + numeroExpediente;
+		return super.toString() + " y numero de expediente: " + numeroExpediente + "\n";
 		
 	}
 }

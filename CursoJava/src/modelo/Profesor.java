@@ -4,8 +4,8 @@ public class Profesor extends Persona{
 
 	String iosfa;
 	
-	public Profesor(String iosfa , String nombre , String apellido) {
-		super(iosfa,nombre);
+	public Profesor(String nombre , String apellido , String iosfa) {
+		super(apellido,nombre);
 		this.iosfa = iosfa;
 	}
 
@@ -39,7 +39,7 @@ public class Profesor extends Persona{
 	}
 	
 	public String toString() {
-		return super.toString() + " y iosfa: " + iosfa;
+		return super.toString() + " y iosfa: " + iosfa + "\n";
 	}
 
 }

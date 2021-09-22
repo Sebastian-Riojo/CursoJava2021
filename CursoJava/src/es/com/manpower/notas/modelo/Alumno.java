@@ -25,6 +25,10 @@ public class Alumno implements Model{
 
 	
 	
+	public Alumno(int int1) {
+		this.codigo = int1;
+	}
+
 	public int getCodigo() {
 		return codigo;
 	}

@@ -7,8 +7,8 @@ public class Persona {
 	
 	public Persona() {
 		
-		apellido = "Riojo";
 		nombre = "Sebastián";
+		apellido = "Riojo";
 		
 	}
 	
@@ -53,7 +53,7 @@ public class Persona {
 		return nombre.hashCode() + apellido.hashCode();
 	}
 	public String toString(){
-		return "Nombre: " + nombre + "y Apellido: " + apellido;
+		return "Nombre: " + nombre + " y Apellido: " + apellido;
 	}
 
 }
