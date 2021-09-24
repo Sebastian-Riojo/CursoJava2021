@@ -18,6 +18,8 @@ public class Tijera extends PiedraPapelTijeraFactory {
 	public int comparar(PiedraPapelTijeraFactory pPpt) {
 		int resultado = 0;
 		
+		resultado = resultado == 0 ? 1:0;
+		
 		switch (pPpt.numero) {
 		case 0: 
 			

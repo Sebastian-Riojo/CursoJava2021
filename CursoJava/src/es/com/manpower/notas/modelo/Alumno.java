@@ -2,7 +2,7 @@ package es.com.manpower.notas.modelo;
 
 import java.util.List;
 
-public class Alumno implements Model{
+public class Alumno implements Model , Vaciable{
 
 	private int codigo;
 	private String nombre , apellido , estudios , git;
@@ -110,10 +110,14 @@ public class Alumno implements Model{
 		
 		
 	}
-
-	public static void main(String[] args) {
-		
-
+	@Override
+	public boolean isEmpty() {
+		return codigo 				== 0 	&&
+				nombre 				==null 	&&
+				apellido 			== null &&
+				estudios 			== null &&
+				git 				==null  &&
+				practicasResueltas 	==null;
 	}
 
 }
