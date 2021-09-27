@@ -1,3 +1,9 @@
 INDEX VERSION 1.131
+C:\CarpetaCurso\CursoJava2021\workspaceSpring412\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3018838908.index
+\SpringFramework\src\main\java
+C:\CarpetaCurso\CursoJava2021\workspaceSpring412\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2500020514.index
+\HolaSpringFrameWork\src\main\java
+C:\CarpetaCurso\CursoJava2021\workspaceSpring412\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2613607451.index
+\HolaSpringFrameWork\src\main\java
 C:\workspaceSpring412\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2613607451.index
 \HolaSpringFrameWork\src\main\java

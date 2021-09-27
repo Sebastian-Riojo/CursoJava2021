@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SpringFramework">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-5.3.9/spring-beans-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-5.3.9/spring-context-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-5.3.9/spring-core-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-5.3.9/spring-aop-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jcl-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jcl-5.3.9/spring-jcl-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-5.3.9/spring-expression-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-5.3.9/spring-web-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-5.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-5.3.9/spring-webmvc-5.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SpringFramework"/>
+        <property name="java-output-path" value="/SpringFramework/build/classes"/>
+    </wb-module>
+</project-modules>
