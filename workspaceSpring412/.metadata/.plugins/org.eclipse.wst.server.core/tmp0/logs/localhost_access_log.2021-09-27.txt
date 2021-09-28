@@ -50,3 +50,7 @@
 0:0:0:0:0:0:0:1 - - [27/Sep/2021:19:52:52 +0200] "GET /HolaSpringFrameWork HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [27/Sep/2021:19:52:52 +0200] "GET /HolaSpringFrameWork/ HTTP/1.1" 200 191
 0:0:0:0:0:0:0:1 - - [27/Sep/2021:19:53:12 +0200] "GET /HolaSpringFrameWork/home HTTP/1.1" 200 176
+127.0.0.1 - - [27/Sep/2021:20:05:28 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:20:05:29 +0200] "GET /HolaSpringFrameWork/WEB-INF/Views/Listado.jsp HTTP/1.1" 404 610
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:20:05:47 +0200] "GET /HolaSpringFrameWork/listado HTTP/1.1" 200 257
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:20:05:47 +0200] "GET /favicon.ico HTTP/1.1" 404 698

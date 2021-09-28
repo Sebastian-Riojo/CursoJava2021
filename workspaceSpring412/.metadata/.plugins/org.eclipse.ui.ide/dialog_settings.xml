@@ -3,6 +3,8 @@
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
 		<item value="net.mihai-nita.ansicon:1.4.4.202102080044"/>
+		<item value="org.aspectj:1.9.6.202103162301"/>
+		<item value="org.eclipse.ajdt:2.2.4.202103162301"/>
 		<item value="org.eclipse.buildship:3.1.5.v20210113-0929"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.13.0.202109080827-r"/>
 		<item value="org.eclipse.egit:5.13.0.202109080827-r"/>
@@ -28,7 +30,11 @@
 		<item value="org.eclipse.mylyn.commons:3.25.2.v20200813-0821"/>
 		<item value="org.eclipse.mylyn.context_feature:3.25.2.v20200828-1617"/>
 		<item value="org.eclipse.mylyn.discovery:3.25.2.v20200813-0821"/>
+		<item value="org.eclipse.mylyn.ide_feature:3.25.2.v20200828-1617"/>
+		<item value="org.eclipse.mylyn.java_feature:3.25.2.v20200828-1617"/>
 		<item value="org.eclipse.mylyn.monitor:3.25.2.v20200813-0821"/>
+		<item value="org.eclipse.mylyn.tasks.ide:3.25.2.v20200814-0512"/>
+		<item value="org.eclipse.mylyn.team_feature:3.25.2.v20200828-1617"/>
 		<item value="org.eclipse.mylyn.wikitext.editors_feature:3.0.39.202102270010"/>
 		<item value="org.eclipse.mylyn_feature:3.25.2.v20200814-0512"/>
 		<item value="org.eclipse.pde:3.14.900.v20210906-0500"/>
@@ -50,5 +56,30 @@
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.egit.feature:0.15.1.201806191431"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
+		<item value="org.springframework.ide.eclipse.ajdt.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.aop.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.autowire.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.batch.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.boot.dash.feature:4.12.0.202109130635"/>
+		<item value="org.springframework.ide.eclipse.data.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.integration.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.maven.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.mylyn.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.security.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.webflow.feature:3.9.18.202109140629-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.xml.namespaces.feature:4.12.0.202109130635"/>
 	</list>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
 </section>

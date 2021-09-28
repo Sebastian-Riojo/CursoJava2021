@@ -1,0 +1,6 @@
+DELETE FROM practicas where prac_nombre ='practicaSebasEliminar'
+DELETE FROM practicas where prac_nombre ='practicaSebasMod1'
+DELETE FROM practicas where prac_nombre ='practicaSebasMod2'
+DELETE FROM practicas where prac_nombre ='practicaSebasLeer1'
+DELETE FROM practicas where prac_nombre ='practicaSebasLeer2'
+DELETE FROM practicas where prac_nombre ='SebasAgrego'
