@@ -17,9 +17,13 @@ public class DemoController {
 	
 	@GetMapping("/greetings")
 	public String greeting(@RequestParam(name = "name" , required = false,
-			defaultValue = "World") String name , Model model){
+			defaultValue = "") String name , Model model){
 		
-		Persona per = new Persona(1,"Sebastián Riojo");
+		if(name == null || name.isEmpty()) {
+			name = "SebasCode";
+		}
+		
+		Persona per = new Persona(2,name);
 		repo.save(per);
 		
 		model.addAttribute("name" , name);

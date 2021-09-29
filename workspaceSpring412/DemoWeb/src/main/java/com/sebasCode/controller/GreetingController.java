@@ -13,7 +13,7 @@ public class GreetingController {
 			defaultValue = "World") String name , Model model) {
 		
 			model.addAttribute("name",name);
-			return "Hey estoy en el segundo";
+			return "greeting";
 		
 	}
 	
