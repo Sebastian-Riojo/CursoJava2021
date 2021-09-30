@@ -23,7 +23,7 @@ public class DemoController {
 			name = "SebasCode";
 		}
 		
-		Persona per = new Persona(2,name);
+		Persona per = new Persona();
 		repo.save(per);
 		
 		model.addAttribute("name" , name);
